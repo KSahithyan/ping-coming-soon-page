@@ -9,6 +9,12 @@ label {
   color: #ff5263;
 }
 
+@media (min-width: 376px) {
+  label {
+    margin-left: 10px;
+  }
+}
+
 .input-error {
   border: 1px solid #ff5263 !important;
 }
@@ -89,6 +95,7 @@ body {
     -ms-grid-row: 1;
     -ms-grid-row-span: 2;
     grid-row: 1 / span 2;
+    text-align: left;
   }
 }
 

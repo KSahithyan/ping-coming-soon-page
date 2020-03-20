@@ -18,6 +18,10 @@ label {
     margin-top: 4px;
     font-size: .8rem;
     color: $light-red;
+
+    @include desktop {
+        margin-left: 10px;
+    }
 }
 
 .input-error {
@@ -88,6 +92,7 @@ body {
     div {
         @include desktop {
             grid-row: 1 / span 2;
+            text-align: left;
         }
     }
 
